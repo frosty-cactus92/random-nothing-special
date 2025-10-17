@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 20px;
+}
+
+
+*,*:before,*::after{
+    box-sizing: inherit;
+}
+
+
+#cont{
+
+    width: 600px;
+    height: 400px;
+    box-shadow: 4px 6px 0px 2px rgba(0,0,0,0.65);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#tophalf{
+    width: 100%;
+    height: 45%;
+    padding-left: 10px;
+}
+
+#bothalf{
+    width: 100%;
+    height: 55%;
+}
+
+#lhalf{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #2ab2af ;
+    vertical-align: top;
+    padding: 10px;
+}
+
+#lhalf h4{
+    color: white;
+    margin-bottom: 13px;
+}
+
+#lhalf p{
+    color: white;
+    margin-bottom: 25px;
+}
+
+#priam{
+    color: white;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+#rhalf{
+    display: inline-block;
+    color: white;
+    width: 50%;
+    height:100%;
+    background-color: #2EBFBD;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+
+ul{
+    padding: 0px;
+}
+
+
+#rhalf li{
+    list-style: none; 
+}
+
+#price {
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: inline-block;
+    color: white;
+}
+#tophalf h2{
+    color: #2ab2af;
+    margin-bottom: 10px;
+
+}
+button:hover{
+    background-color: #A9C42D;
+    cursor: pointer;
+
+}
+
+#tophalf h4{
+    color: #c0df34;
+
+}
+
+#tophalf p{
+    color: #98a6bd;
+}
+
+button {
+     background-color: #C0df34;
+     color: white;
+     width: 100%;
+     border-radius: 4px;
+     padding: 10px;
+     border: none;
+
+}
+
+/* 
+bleft- 2ab2af
+bright-28EBFBD
+*/
+
+
+
+
